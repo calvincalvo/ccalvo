@@ -15,10 +15,9 @@ def joke():
             print("The Catholic Church.")
         else:
             break    
-        sleep(3)
+        sleep(1)
         print('Hail Satan!')
-        sleep(3)
+        sleep(1)
         continue
        
 joke()
-
