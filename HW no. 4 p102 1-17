@@ -1,0 +1,26 @@
+1. an empty list value,
+2. spam[2] = 'hello'
+3. 'd'
+4. 'd'
+5. ['a', 'b']
+6. 1
+7. [3.14, 'cat', 11, 'cat', True, 99]
+8. [3.14, 11, 'cat', True]
+9.concatenation is +
+  replication is *
+10. append() only adds values to the end of a list, 
+  insert() can add values anywhere on the list.
+11. The del statement
+  remove()
+12. They can both be passed to len(),
+  be used in for loops,
+  be concatenated, 
+  and be used with the in and not in operators.
+13. Lists are mutable; they can be altered and use brackets[] but, 
+  Tuples are immutable; they can never be changed, they use parentheses (). 
+14. (42,)
+15. The tuple() and list() 
+16. They contain references values.
+17. The copy.copy() is a shallow copy of a list,
+  whereas the copy.deepcopy() result in a deep copy of a list.
+  That is, however only copy .deepcopy() will duplicate any lists inside the list.
