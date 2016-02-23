@@ -1,0 +1,6 @@
+import re
+
+def regexStrip(string, c):
+    regex = '([' + c + ']*)(.*)([' + c + ']*$)'
+    strip = re.compile(regex)
+    print strip.search(string).group(2)
