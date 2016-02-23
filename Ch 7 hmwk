@@ -1,0 +1,9 @@
+import re
+
+sentence = '  bleedinghearts beatinghearts    '
+
+def stripping(firstargmnt, *argmnt):
+   n = re.compile(r'^[' + str(argmnt) +' ]+|[' + str(argmnt) +' ]+$')
+   return n.sub('', firstargmnt)
+   
+stripping(sentence, 'hearts')
