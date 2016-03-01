@@ -1,0 +1,23 @@
+1. whatever is the current working directory
+
+2. a root folder
+
+3. os.getcwd() shows the current working directory. 
+  os.chdir() changes the current working directory.
+
+4. . folder is the current folder 
+  .. is the parent folder.
+
+5. C:\bacon\eggs  dir name
+  spam.txt  base name.
+
+6.  'r' for read
+    'w' for write
+    'a' for append
+
+7. it is erased and completely overwritten.
+
+8. The read() method shows file’s entire contents as a single string value
+  The readlines() method shows a list of strings, each string is a line from the contents of the file.
+
+9. a dictionary value
