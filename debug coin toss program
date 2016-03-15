@@ -1,0 +1,17 @@
+import random
+guess = ''
+coin = ['heads','tails']
+while guess not in (coin):
+    print('Guess the coin toss! Enter heads or tails:')
+    guess = input().lower()
+toss = random.choice(coin)
+if toss == guess:
+    print('You got it!')
+else:
+    print('Nope! Guess again!')
+    toss = random.choice(coin)
+    if toss == input().lower():
+        print('Wow! Are you psychic or something?')
+    else:
+        print('Nope. Looks like you are not very lucky.')
+
